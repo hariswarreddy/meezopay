@@ -33,7 +33,7 @@ export default function Page() {
         <div className="container">
           <div className="section-head"><p className="eyebrow">All-in-one banking</p><h2>Every account, one dashboard.</h2><p>Connect your current account, savings, and any second bank you use — Meezo shows balances and transactions together, in real time.</p></div>
           <div className="hero-grid" style={{alignItems: 'center'}}>
-            <div className="phone-stage"><div className="phone" style={{width: 'min(260px,70vw)'}}><img src="/assets/ss_dashboard.jpg" alt="Meezo home dashboard with HSBC, Lloyds and NatWest accounts connected" /></div></div>
+            {/* <div className="phone-stage"><div className="phone" style={{width: 'min(260px,70vw)'}}><img src="/assets/ss_dashboard.jpg" alt="Meezo home dashboard with HSBC, Lloyds and NatWest accounts connected" /></div></div> */}
             <div className="grid-2">
               <div className="card"><h3>Connect in minutes</h3><p>Search your bank, sign in through their own secure login, and it appears in your dashboard.</p></div>
               <div className="card"><h3>All major UK banks</h3><p>HSBC, Lloyds, NatWest, Halifax, Nationwide, Santander, Revolut and more.</p></div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import GetMeezoButton from "@/components/GetMeezoButton";
+import InlineVideo from "@/components/InlineVideo";
 
 export const metadata: Metadata = {
   title: "Split Bills Without the Chase — Meezo",
@@ -19,16 +20,22 @@ export default function Page() {
   return (
     <>
       <JsonLd data={jsonLd0} />
-      <section className="page-hero">
-        <div className="container">
-          <p className="crumbs"><Link href="/">Home</Link> / Split bills</p>
-          <p className="eyebrow">Split &amp; settle</p>
-          <h1>Split the bill. Not the friendship.</h1>
-          <p>Split any bill evenly or by a custom amount, send the request, and see exactly who's paid and who hasn't — until it's settled.</p>
-        </div>
-      </section>
+       <section id="split">
+              <div className="container">
+                <div className="hero-grid split-hero-grid" style={{alignItems: 'center'}}>
+                  <div className="phone-stage">
+                    <InlineVideo src="https://ik.imagekit.io/hariswarreddy/meezo/split-bills.mp4" className="add-bank-video" />
+                  </div>
+                  <div style={{padding: '0 20px'}}>
+                    <p className="eyebrow">Split &amp; settle</p>
+                    <h2 style={{fontSize: 'clamp(26px,4vw,36px)'}}>Split the bill. Not the friendship.</h2>
+                    <p className="measure" style={{color: 'var(--text-dim)', fontSize: '16px', marginTop: '16px'}}>Set each person's share, send the requests, and watch the ring fill in as everyone settles up.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
 
-      <section className="tight">
+      {/* <section className="tight">
         <div className="container">
           <div className="grid-3">
             <div>
@@ -45,7 +52,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="tight">
         <div className="container">
