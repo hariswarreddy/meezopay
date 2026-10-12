@@ -32,7 +32,7 @@ export default function Footer() {
               <Link href="/security">Security</Link>
             </div>
             <div><h5>Legal</h5>
-              <Link href="/privacy">Privacy policy</Link>
+              <Link href="/privacy-policy">Privacy policy</Link>
               <Link href="/terms">Terms &amp; conditions</Link>
               <Link href="/contact#complaints">Complaints</Link>
             </div>
