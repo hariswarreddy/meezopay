@@ -744,5 +744,20 @@ td{color:var(--text-dim);}
   line-height: 1;
 }
 
+/* ---------- legal prose ---------- */
+.legal-prose{max-width:780px;margin:0 auto;font-size:16.5px;line-height:1.8;color:var(--text-dim);}
+.legal-prose h2{font-size:clamp(20px,3vw,26px);color:var(--text);margin:48px 0 16px;font-weight:700;line-height:1.2;}
+.legal-prose h3{font-size:18px;color:var(--text);margin:32px 0 12px;font-weight:600;}
+.legal-prose p{margin-bottom:16px;}
+.legal-prose ul,.legal-prose ol{margin:12px 0 20px 24px;padding:0;}
+.legal-prose li{margin-bottom:8px;padding-left:4px;}
+.legal-prose ul li{list-style:disc;}
+.legal-prose ol li{list-style:decimal;}
+.legal-prose a{color:var(--accent-soft);text-decoration:underline;text-underline-offset:3px;}
+.legal-prose a:hover{color:var(--accent);}
+.legal-prose .legal-effective{font-size:14px;color:var(--text-faint);margin-bottom:32px;font-weight:500;letter-spacing:0.02em;text-transform:uppercase;}
+.legal-prose .legal-intro{font-size:17.5px;color:var(--text);line-height:1.7;margin-bottom:32px;}
+.legal-prose .legal-footer{margin-top:56px;padding-top:32px;border-top:1px solid var(--border);font-style:italic;color:var(--text-faint);text-align:center;}
+
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 @keyframes scaleUp { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
